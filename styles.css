@@ -1,0 +1,71 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ffc0cb, #ff69b4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+/* Profile Card */
+.profile-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Header Section */
+.card-header {
+  background: linear-gradient(135deg, #ff69b4, #ff1493);
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Body Section */
+.card-body {
+  padding: 20px;
+  color: #333;
+}
+
+.card-body h1 {
+  margin: 10px 0;
+  font-size: 1.8em;
+  color: #ff69b4;
+}
+
+.card-body p {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #777;
+}
+
+.card-body button {
+  background: #ff69b4;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card-body button:hover {
+  background: #ff1493;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(255, 20, 147, 0.5);
+}
